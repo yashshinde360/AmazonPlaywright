@@ -1,0 +1,19 @@
+{
+    "default":{
+        "paths": [
+            "src/tests/features/"
+        ],
+        "require": [
+            "src/tests/steps/*.ts",
+            "src/tests/test-steps/*ts",
+            "src/tests/pages/*ts"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "format": [
+        ["html", "test-results/html-formatter.html"],
+        ["json", "test-results/html-formatter.json"]
+        ]
+    }
+}
